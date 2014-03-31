@@ -11,8 +11,8 @@ require.config({
         },
 
         marionette: {
-            deps: ['jquery', 'underscore', 'backbone'],
-            exports: 'Marionette'
+            deps: ['backbone'],
+            exports: 'Backbone.Marionette'
         }
     },
 
@@ -20,6 +20,12 @@ require.config({
         jquery: '../bower_components/jquery/dist/jquery',
         underscore: '../bower_components/underscore/underscore',
         backbone: '../bower_components/backbone/backbone',
-        marionette: '../bower_components/marionette/backbone.marionette'
+        marionette: '../bower_components/marionette/lib/backbone.marionette'
     }
+});
+
+require(['app'], function(App) {
+    App.start();
+
+    Backbone.history.start();
 });

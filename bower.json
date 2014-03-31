@@ -1,0 +1,20 @@
+{
+  "name": "Mari test app",
+  "version": "0.0.0",
+  "authors": [
+    "Nick Brown <nick@nickbrown.me>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "marionette": "~1.7.3",
+    "requirejs": "~2.1.11"
+  }
+}

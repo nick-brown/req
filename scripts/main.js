@@ -11,7 +11,7 @@ require.config({
         marionette: {
             deps: ['backbone'],
             exports: 'Backbone.Marionette'
-        },
+        }
     },
 
     paths: {
@@ -22,10 +22,8 @@ require.config({
         mustache: '../bower_components/mustache/mustache'
     }
 });
-
-require(['app'], function(App) {
+require(['app', 'marionette'], function(App, Marionette) {
     'use strict';
-    App.start();
 
-    Backbone.history.start();
+    App.start();
 });

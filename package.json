@@ -1,0 +1,11 @@
+{
+  "name": "bb-mari-req",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "jshint-stylish": "~0.1.5"
+  }
+}
